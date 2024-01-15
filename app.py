@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 import google.generativeai as palm
-palm.configure(api_key="")
+palm.configure(api_key="AIzaSyBpFhLYAzsZ18FhHFQRwgq9MlaP40_Dw4g")
 model = {"model":"models/chat-bison-001"}
 app = Flask(__name__)
 @app.route("/",methods=["GET","POST"])
