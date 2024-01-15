@@ -1,3 +1,4 @@
-gunicorn
 flask
+replicate
+gunicorn
 google-generativeai
